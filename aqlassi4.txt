@@ -1,0 +1,14 @@
+Create table order4(orderid int,supplyname char(20),cose int,shippingname char(20));
+insert into order4 values(1,'Exotic',1000,'rdpv');
+select price shippingname from order4 where cose>50 and supplyname='Exotic';
+create table Employee1(eid int primary key,ename text,ecity text);
+insert into Employee1 values(1,'Aashitha','Amalapuram');
+insert into Employee1 values(2,'Santhi','Sarath');
+insert into Employee1 values(3,'Gani','razol');
+select  *from Employee1;
+create table cus(csid int primary key,csname text);
+insert into cus values(1,'Rakesh');
+insert into cus values(2,'sai');
+select *from cus;
+select csid from cus where csname like 'ra%';
+select *from cus;
